@@ -6,9 +6,7 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          I’m a B.Tech student focused on DevOps, cloud systems, and automation. I like working on real-world problems—especially around how applications are deployed, managed, and scaled. I enjoy simplifying workflows and turning manual tasks into automated systems.
         </p>
       </div>
     </div>
