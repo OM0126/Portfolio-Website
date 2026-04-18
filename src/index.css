@@ -2,12 +2,11 @@
 
 :root {
   font-family: "Geist", sans-serif;
-
   font-optical-sizing: auto;
   font-style: normal;
   line-height: 1.5;
   scroll-behavior: smooth;
-  color-scheme: light dark;
+  color-scheme: dark;
   color: #eae5ec;
   background-color: var(--backgroundColor);
 
@@ -18,18 +17,15 @@
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  --accentColor: #c2a4ff;
-  --backgroundColor: #0b080c;
+  --accentColor: #F9A826; /* Gargantua glowing gold */
+  --backgroundColor: #020204; /* Deep, absolute space */
   --vh: 100vh;
   --vh: 100svh;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Geist", sans-serif;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
 }
 body {
   overflow: hidden;
@@ -58,7 +54,14 @@ main {
 body {
   margin: 0;
   height: auto;
-  background-color: #000;
+  background-color: var(--backgroundColor);
+  background-image: 
+    radial-gradient(1.5px 1.5px at 10px 20px, rgba(255, 255, 255, 0.8), rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 50px 80px, rgba(255, 255, 255, 0.5), rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 150px 100px, rgba(249, 168, 38, 0.7), rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 200px 30px, rgba(255, 255, 255, 0.4), rgba(0,0,0,0));
+  background-repeat: repeat;
+  background-size: 250px 250px;
   flex-grow: 1;
   --cWidth: calc(100% - 30px);
   --cMaxWidth: 1920px;
@@ -96,7 +99,7 @@ body {
   position: relative;
   height: var(--vh);
   margin: auto;
-  margin-top: 200px;
+  margin-top: 450px;
   margin-bottom: 150px;
 }
 
