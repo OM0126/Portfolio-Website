@@ -94,16 +94,21 @@ const WhatIDo = () => {
               </p>
               <h5>Skillset &amp; tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Docker</div>
-                <div className="what-tags">Kubernetes</div>
-                <div className="what-tags">AWS</div>
-                <div className="what-tags">Jenkins</div>
-                <div className="what-tags">GitHub Actions</div>
-                <div className="what-tags">GitLab CI/CD</div>
-                <div className="what-tags">Ansible</div>
-                <div className="what-tags">Cloudflare</div>
-                <div className="what-tags">Terraform</div>
-                <div className="what-tags">Networking</div>
+                <div className="what-tags">LINUX</div>
+                <div className="what-tags">SHELL SCRIPTING</div>
+                <div className="what-tags">GIT</div>
+                <div className="what-tags">GITHUB</div>
+                <div className="what-tags">CI/CD</div>
+                <div className="what-tags">DOCKER</div>
+                <div className="what-tags">KUBERNETES</div>
+                <div className="what-tags">ANSIBLE</div>
+                <div className="what-tags">TERRAFORM(IAC)</div>
+                <div className="what-tags">CLOUD(AWS/AZURE)</div>
+                <div className="what-tags">PYTHON</div>
+                <div className="what-tags">NGINX</div>
+                
+
+
               </div>
               <div className="what-arrow"></div>
             </div>
