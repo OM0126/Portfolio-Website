@@ -28,12 +28,12 @@ const Career = () => {
             <div className="career-info-in">
               <div className="career-role">
                 <h4>Currently Learning</h4>
-                <h5>Skills &amp; Workflows</h5>
+                <h5>Skills &amp; Workflow</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Focusing on real-world DevOps workflows, deployment strategies, cloud infrastructure scaling, and integrating MLOps fundamentals with DevOps practices.
+              Focusing on real-world DevOps and MLOps workflows, deployment strategies, cloud infrastructure scaling, and integrating MLOps fundamentals with DevOps practices.
             </p>
           </div>
           <div className="career-info-box">

@@ -17,7 +17,7 @@ const Contact = () => {
             <h4>Phone</h4>
             <p>
               <a href="tel:+919999999999" data-cursor="disable">
-                Contact via Email
+                +91 7036474640
               </a>
             </p>
           </div>
@@ -61,7 +61,7 @@ const Contact = () => {
               Designed and Developed <br /> by <span>Om Yengantiwar</span>
             </h2>
             <h5>
-              <MdCopyright /> 2024
+              <MdCopyright /> 2026 Om Yengantiwar. All rights reserved.
             </h5>
           </div>
         </div>
