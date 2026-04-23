@@ -13,7 +13,7 @@ const Landing = ({ children }: PropsWithChildren) => {
               <br />
               <span>YENGANTIWAR</span>
 
-            <h2>I am here to to expose my skills and experience and projects</h2>
+            <h2>I am here to to expose my skills and experience & projects</h2>
             </h1>
           </div>
           <div className="landing-info">
